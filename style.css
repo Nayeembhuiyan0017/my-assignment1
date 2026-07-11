@@ -12,7 +12,6 @@
 .logo{
     color: #6F4E37;
     font-size: 28px;
-    font-weight: 700;
 }
 .link{
     list-style:none;
@@ -69,6 +68,7 @@ align-items: center;
 .speakers h2{
     font-size: 40px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .speaker-grid{
     display:grid;
@@ -100,7 +100,6 @@ align-items: center;
 .pricing h2{
     text-align:center;
     font-size:48px;
-    font-weight:700;
     color:#111827;
     margin-bottom:10px;
 }
@@ -140,7 +139,6 @@ align-items: center;
 
 .price span{
     font-size:48px;
-    font-weight:700;
     color:#111827;
 }
 
@@ -176,8 +174,6 @@ align-items: center;
     color:#2563eb;
     border-radius:8px;
     font-size:16px;
-    font-weight:600;
-    
 }
 
 
@@ -225,6 +221,68 @@ hr{
 }
 .copyright{ 
     text-align: center;
+}
+.career-hub{
+    padding:80px 20px;
+    background:#f8fafc;
+    text-align:center;
+}
+
+.career-hub h2{
+    font-size:2.4rem;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.section-text{
+    max-width:700px;
+    margin:0 auto 40px;
+    color:#475569;
+    line-height:1.7;
+}
+
+.career-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.career-card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.career-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(37,99,235,.2);
+}
+
+.career-card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.career-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+.career-btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.career-btn:hover{
+    background:#1d4ed8;
 }
 
 
