@@ -1,0 +1,1 @@
+Design a modern 'DevConf Career Hub' section for a DevConf 2026 website using only HTML and CSS. Include four responsive cards for Live Hiring, Resume Review, Networking, and Internship Zone. Use a clean, professional design with hover effects.
