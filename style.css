@@ -202,6 +202,30 @@ align-items: center;
     color:#fff;
     border:none;
 }
+footer{
+    background-color: #111827;
+    color: white;
+    padding: 40px 8%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.socials a{
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+}
+hr{
+    margin: 25px 0;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.copyright{ 
+    text-align: center;
+}
 
 
 
