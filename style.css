@@ -49,16 +49,13 @@ align-items: center;
 .hero-content{
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(239, 232, 232);
     width: 70%;
 }
 .hero h1{
     font-size: 70px;
     line-height: 1.2;
     margin-bottom: 20px;
-}
-.hero em{
-    color: #38bdf8;
 }
 .hero p{
     font-size: 20px;
@@ -75,6 +72,7 @@ align-items: center;
     gap: 35px;
     padding: 20px 30px;
     border-radius: 8px;
+    background-color: #6280ac;
 }
 .card img{
     width: 100%;
@@ -86,7 +84,7 @@ align-items: center;
     display: inline-block;
     margin: 18px 0;
     background-color: #2563eb;
-    color: white;
+    color: rgb(234, 230, 230);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 14px;
@@ -95,7 +93,7 @@ align-items: center;
     margin-bottom: 10px;}
     .pricing{
     padding:80px 8%;
-    background:#ffffff;
+    background:#a39d9d;
 }
 
 .pricing h2{
@@ -199,30 +197,7 @@ align-items: center;
     color:#fff;
     border:none;
 }
-footer{
-    background-color: #111827;
-    color: white;
-    padding: 40px 8%;
-}
-.footer-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
 
-}
-.socials a{
-    color: white;
-    margin-left: 20px;
-    font-size: 24px;
-}
-hr{
-    margin: 25px 0;
-    border: 1px solid rgba(255,255,255,.2);
-}
-.copyright{ 
-    text-align: center;
-}
 /* ================= PLACEHOLDER SECTION ================= */
 
 .placeholder-section{
@@ -340,4 +315,28 @@ hr{
     min-height:auto;
 }
 
+}
+footer{
+    background-color: #111827;
+    color: white;
+    padding: 40px 8%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.socials a{
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+}
+hr{
+    margin: 25px 0;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.copyright{ 
+    text-align: center;
 }
