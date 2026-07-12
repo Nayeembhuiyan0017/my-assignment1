@@ -198,7 +198,7 @@ align-items: center;
     border:none;
 }
 
-/* ================= PLACEHOLDER SECTION ================= */
+/* PLACEHOLDER SECTION */
 
 .placeholder-section{
     background:#0d1117;
@@ -332,6 +332,18 @@ footer{
     color: white;
     margin-left: 20px;
     font-size: 24px;
+}
+.fa-facebook{
+    font-size: 44px;
+}
+.fa-x-twitter{
+    font-size: 44px;
+}
+.fa-instagram{
+    font-size: 44px;
+}
+.fa-linkedin{
+    font-size: 44px;
 }
 hr{
     margin: 25px 0;
